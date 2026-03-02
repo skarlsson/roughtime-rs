@@ -1,0 +1,21 @@
+[workspace]
+members = ["crates/*"]
+resolver = "2"
+
+[package]
+name = "roughtime-rs"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Roughtime client and time bag tool (IETF draft-14)"
+
+[dependencies]
+roughtime-wire = { path = "crates/roughtime-wire" }
+roughtime-client = { path = "crates/roughtime-client" }
+roughtime-bag = { path = "crates/roughtime-bag" }
+clap = { version = "4", features = ["derive"] }
+toml = "0.8"
+serde = { version = "1", features = ["derive"] }
+base64 = "0.22"
+chrono = "0.4"
+hex = "0.4"

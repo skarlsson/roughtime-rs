@@ -1,0 +1,24 @@
+[[server]]
+name = "Cloudflare"
+address = "roughtime.cloudflare.com:2002"
+public_key = "gD63hSj3ScS+wuOeGrubXlq35N1c5Lby/S+T7MNTPxo="
+
+[[server]]
+name = "int08h"
+address = "roughtime.int08h.com:2002"
+public_key = "AW5uAoTSTDfG5NfY1bTh08GUnOqlRb+HVhbJ3ODJvsE="
+
+[[server]]
+name = "Netnod-sth1"
+address = "sth1.roughtime.netnod.se:2002"
+public_key = "9l1JN4HakGnG44yyqyNNCb0HN0XfsysBbnl/kbZoZDc="
+
+[[server]]
+name = "Netnod-sth2"
+address = "sth2.roughtime.netnod.se:2002"
+public_key = "T/xxX4ERUBAOpt64Z8phWamKsASZxJ0VWuiPm3GS/8g="
+
+[[server]]
+name = "txryan"
+address = "time.txryan.com:2002"
+public_key = "iBVjxg/1j7y1+kQUTBYdTabxCppesU/07D4PMDJk2WA="

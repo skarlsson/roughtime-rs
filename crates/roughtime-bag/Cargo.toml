@@ -1,0 +1,13 @@
+[package]
+name = "roughtime-bag"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Roughtime time bag: CBOR format for offline/chained proofs"
+
+[dependencies]
+roughtime-wire = { path = "../roughtime-wire" }
+roughtime-client = { path = "../roughtime-client" }
+ciborium = "0.2"
+serde = { version = "1", features = ["derive"] }
+serde_bytes = "0.11"
